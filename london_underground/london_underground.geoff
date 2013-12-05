@@ -72,8 +72,8 @@
 (eput:Station!name {"name":"East Putney"})
 (ecot:Station!name {"name":"Eastcote"})
 (edgw:Station!name {"name":"Edgware"})
-(edgb:Station!name {"name":"Edgware Road"}) /* Bakerloo */
-(edgr:Station!name {"name":"Edgware Road"}) /* Hammersmith & City, District and Circle */
+(edgb:Station!name {"name":"Edgware Road (Bakerloo)"})
+(edgr:Station!name {"name":"Edgware Road (Hammersmith & City, District and Circle)"})
 (elep:Station!name {"name":"Elephant & Castle"})
 (elmp:Station!name {"name":"Elm Park"})
 (emba:Station!name {"name":"Embankment"})
@@ -97,8 +97,8 @@
 (grep:Station!name {"name":"Green Park"})
 (gunn:Station!name {"name":"Gunnersbury"})
 (hain:Station!name {"name":"Hainault"})
-(hamx:Station!name {"name":"Hammersmith"}) /* Distict and Piccadilly */
-(hamm:Station!name {"name":"Hammersmith"}) /* Hammersmith & City and Circle */
+(hamx:Station!name {"name":"Hammersmith (Distict and Piccadilly)"})
+(hamm:Station!name {"name":"Hammersmith (Hammersmith & City and Circle)"})
 (hamp:Station!name {"name":"Hampstead"})
 (hang:Station!name {"name":"Hanger Lane"})
 (harl:Station!name {"name":"Harlesden"})
@@ -272,6 +272,13 @@
 (wdln:Station!name {"name":"Wood Lane"})
 (wdfd:Station!name {"name":"Woodford"})
 (wdpk:Station!name {"name":"Woodside Park"})
+
+/* Bakerloo */
+(elep)<-[:BAKERLOO!]->(lamb)<-[:BAKERLOO!]->(wate)<-[:BAKERLOO!]->(emba)<-[:BAKERLOO!]->(char)<-[:BAKERLOO!]->(picc)
+(picc)<-[:BAKERLOO!]->(oxfo)<-[:BAKERLOO!]->(bake)<-[:BAKERLOO!]->(mary)<-[:BAKERLOO!]->(edgb)<-[:BAKERLOO!]->(padd)
+(padd)<-[:BAKERLOO!]->(warw)<-[:BAKERLOO!]->(maid)<-[:BAKERLOO!]->(kilp)<-[:BAKERLOO!]->(qprk)<-[:BAKERLOO!]->(keng)
+(keng)<-[:BAKERLOO!]->(wilj)<-[:BAKERLOO!]->(harl)<-[:BAKERLOO!]->(ston)<-[:BAKERLOO!]->(wemc)<-[:BAKERLOO!]->(nwem)
+(nwem)<-[:BAKERLOO!]->(sket)<-[:BAKERLOO!]->(kent)<-[:BAKERLOO!]->(harw)
 
 /* Metropolitan */
 (aldg)<-[:METROPOLITAN!]->(live)<-[:METROPOLITAN!]->(moog)<-[:METROPOLITAN!]->(barb)<-[:METROPOLITAN!]->(farr)
