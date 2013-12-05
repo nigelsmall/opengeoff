@@ -1,1 +1,5 @@
-= OpenGeoff Reference Graph Data
+= OpenGeoff Reference Graph Data Collection
+
+This is (will be) a collection of royalty free graph data in the Geoff format.
+It can be loaded into Neo4j using the load2neo plugin.
+

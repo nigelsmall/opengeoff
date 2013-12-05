@@ -269,11 +269,12 @@
 (wdpk:Station!name {"name":"Woodside Park"})
 
 /* Metropolitan */
-(aldg)<-[:METROPOLITAN!]->(live)<-[:METROPOLITAN!]->(moog)<-[:METROPOLITAN!]->(barb)<-[:METROPOLITAN!]->(farr)<-[:METROPOLITAN!]->(kxsp)
-(kxsp)<-[:METROPOLITAN!]->(eusq)<-[:METROPOLITAN!]->(gpst)<-[:METROPOLITAN!]->(bake)<-[:METROPOLITAN!]->(finr)<-[:METROPOLITAN!]->(wemp)
-(wemp)<-[:METROPOLITAN!]->(pres)<-[:METROPOLITAN!]->(nwic)<-[:METROPOLITAN!]->(harh)<-[:METROPOLITAN!]->(nhar)<-[:METROPOLITAN!]->(pinn)
-(pinn)<-[:METROPOLITAN!]->(nwoh)<-[:METROPOLITAN!]->(nwoo)<-[:METROPOLITAN!]->(moop)<-[:METROPOLITAN!]->(crox)<-[:METROPOLITAN!]->(watf)
+(aldg)<-[:METROPOLITAN!]->(live)<-[:METROPOLITAN!]->(moog)<-[:METROPOLITAN!]->(barb)<-[:METROPOLITAN!]->(farr)
+(farr)<-[:METROPOLITAN!]->(kxsp)<-[:METROPOLITAN!]->(eusq)<-[:METROPOLITAN!]->(gpst)<-[:METROPOLITAN!]->(bake)
+(bake)<-[:METROPOLITAN!]->(finr)<-[:METROPOLITAN!]->(wemp)<-[:METROPOLITAN!]->(pres)<-[:METROPOLITAN!]->(nwic)
+(nwic)<-[:METROPOLITAN!]->(harh)<-[:METROPOLITAN!]->(nhar)<-[:METROPOLITAN!]->(pinn)<-[:METROPOLITAN!]->(nwoh)
+(nwoh)<-[:METROPOLITAN!]->(nwoo)<-[:METROPOLITAN!]->(moop)<-[:METROPOLITAN!]->(crox)<-[:METROPOLITAN!]->(watf)
 (moop)<-[:METROPOLITAN!]->(rick)<-[:METROPOLITAN!]->(chor)<-[:METROPOLITAN!]->(chal)<-[:METROPOLITAN!]->(ches)
 (chal)<-[:METROPOLITAN!]->(amer)
-(harh)<-[:METROPOLITAN!]->(whar)<-[:METROPOLITAN!]->(ecot)<-[:METROPOLITAN!]->(ruim)<-[:METROPOLITAN!]->(ruis)<-[:METROPOLITAN!]->(icke)
-(icke)<-[:METROPOLITAN!]->(hill)<-[:METROPOLITAN!]->(uxbr)
+(harh)<-[:METROPOLITAN!]->(whar)<-[:METROPOLITAN!]->(ecot)<-[:METROPOLITAN!]->(ruim)<-[:METROPOLITAN!]->(ruis)
+(ruis)<-[:METROPOLITAN!]->(icke)<-[:METROPOLITAN!]->(hill)<-[:METROPOLITAN!]->(uxbr)
